@@ -1,0 +1,14 @@
+{
+  "name": "Hystory-Scrap",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node scraping.js"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "cheerio": "~0.17.0",
+    "request": "~2.42.0",
+    "percolator": "~1.5.0"
+  }
+}
