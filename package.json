@@ -1,5 +1,5 @@
 {
-  "name": "Hystory-Scrap",
+  "name": "Un-Dia-Como-Hoy",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "express": "~4.2.0",
     "cheerio": "~0.17.0",
     "request": "~2.42.0",
-    "percolator": "~1.5.0"
+    "percolator": "~1.5.0",
+    "node-schedule": "0.1.13"
   }
 }
