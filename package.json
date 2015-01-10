@@ -1,15 +1,30 @@
 {
   "name": "Un-Dia-Como-Hoy",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.8.0",
+  "author": "Oscar Cortez",
+  "description": "This is an api that provides events a day like today",
   "scripts": {
     "start": "node scraping.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscarmcm/un-dia-como-hoy"
+  },
+  "bugs": {
+    "url": "https://github.com/oscarmcm/un-dia-como-hoy/issues"
+  },
+  "keywords": [
+    "events",
+    "cheerio",
+    "api",
+    "express",
+  ],
   "dependencies": {
     "express": "~4.2.0",
     "cheerio": "~0.17.0",
     "request": "~2.42.0",
     "percolator": "~1.5.0",
     "node-schedule": "0.1.13"
-  }
+  },
+  "licence": "MIT"
 }
