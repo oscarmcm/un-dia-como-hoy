@@ -1,28 +1,40 @@
 {
-  "name": "day-like-today",
-  "version": "0.8.0",
-  "author": "Oscar Cortez <om.cortez.2010@gmail.com> (http://www.oscarmcm.com)",
-  "description": "This is an api that provides events a day like today",
+  "name": "un-dia-como-hoy",
+  "version": "1.0.0",
+  "description": "Simple api and scrapper that return things that they spent a day like today",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "*",
+    "cheerio": "0.10.4",
+    "express": "*",
+    "body-parser": "*",
+    "date-utils": "*"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oscarmcm/un-dia-como-hoy"
+    "url": "https://github.com/oscarmcm/un-dia-como-hoy.git"
   },
+  "keywords": [
+    "api",
+    "srap",
+    "day",
+    "today",
+    "node",
+    "express",
+    "cheerio"
+  ],
+  "author": "Oscar Cortez",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/oscarmcm/un-dia-como-hoy/issues"
   },
-  "keywords": [
-    "events",
-    "cheerio",
-    "api",
-    "express",
-  ],
-  "dependencies": {
-    "cheerio": "~0.17.0",
-    "request": "~2.42.0",
-  },
-  "licence": "MIT"
+  "homepage": "https://github.com/oscarmcm/un-dia-como-hoy"
 }
